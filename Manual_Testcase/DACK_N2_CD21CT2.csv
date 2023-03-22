@@ -1,0 +1,330 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Testcase Result),Custom field (Text Level),Custom field (Text Steps),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+SC-Edit account&& Account login-when changing password re-login with new password,N2-57,10292,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:57 AM,05/Jan/23 10:57 AM,15/Mar/23 10:49 PM,05/Jan/23 10:57 AM,,0,AccountLogin,EditAccount,"when changing password re-login with new password
+
+test data:”
+
+mật khẩu mới 1:
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,successfully logged in with new password,,,,,,,,,,,,,,successfully logged in with new password,,,,,0|i001s7:,,N2 Sprint 1,,,,,,,,Pass,System,"1)change passwrod in Edit account
+2) log out
+3) login accout",,,Done
+EA39-Verify password field - Cannot be left blank,N2-56,10291,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:50 AM,05/Jan/23 3:06 PM,05/Jan/23 3:05 PM,05/Jan/23 10:51 AM,,0,EditAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-3,Edit account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001rz:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+EA38 - Verify email -cannot be left blank,N2-55,10290,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:49 AM,05/Jan/23 3:05 PM,05/Jan/23 3:04 PM,05/Jan/23 10:51 AM,,0,EditAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-3,Edit account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001rr:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+AL37 - Verify password field - cannot be left blank,N2-54,10289,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:47 AM,05/Jan/23 3:04 PM,05/Jan/23 3:03 PM,05/Jan/23 10:48 AM,,0,AccountLogin,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-2,Account login,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001rj:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+IPF11 - Register an account - input Email special characters,N2-53,10288,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:46 AM,05/Jan/23 10:50 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,Request to enter email information,,Công Vũ,62999f181648f2006963b487,,,,,,,,,An error message was displayed,,,,,,,,,,,,,,show error message: 'Invalid email',,,,,0|i001rb:,,N2 Sprint 1,,,,,,,,Pass,Integration,"1)Enter special characters last your email
+
+2)click button('Đăng ký')",,,To Do
+AL36- Verify phone number - cannot be left blank,N2-52,10287,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:45 AM,05/Jan/23 3:03 PM,05/Jan/23 3:03 PM,05/Jan/23 10:47 AM,,0,AccountLogin,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-2,Account login,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001r3:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+RA35 - Verify password field - cannot be left blank,N2-51,10286,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:44 AM,05/Jan/23 3:03 PM,05/Jan/23 3:03 PM,05/Jan/23 10:44 AM,,0,RegisterAnAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-1,Register an account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001qv:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+RA34  -Verify first and last name field-cannot be left blank,N2-50,10285,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:43 AM,05/Jan/23 3:02 PM,05/Jan/23 3:01 PM,05/Jan/23 10:45 AM,,0,RegisterAnAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-1,Register an account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001qn:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+RA33 - Verify email field - cannot be left blank,N2-49,10284,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:42 AM,05/Jan/23 3:00 PM,05/Jan/23 2:59 PM,05/Jan/23 10:45 AM,,0,RegisterAnAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-1,Register an account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001qf:,,,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+RA32 - Verify phone number field - cannot be left blank,N2-48,10283,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:41 AM,05/Jan/23 2:59 PM,05/Jan/23 2:58 PM,05/Jan/23 10:41 AM,,0,RegisterAnAccount,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"show error message""vui lòng điền vào ô này""",,,,,,,,,,N2-1,Register an account,,,"show error message""vui lòng điền vào ô này""",,,,,0|i001q7:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)leave field blank
+2)click button",,,Done
+IPF10 - Register an account - Check Your Email,N2-47,10282,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:38 AM,05/Jan/23 10:50 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,you need to enter email information,,Công Vũ,62999f181648f2006963b487,,,,,,,,,no error message is displayed,,,,,,,,,,,,,,"show an error:""vui lòng nhập địa chỉ  email""",,,,,0|i001pz:,,,,,,,,,,Pass,Integration,"-Emails must not include trailing spaces
+-Emails must not have leading spaces",,,To Do
+EA31 - Verify password field - The password entered must have a capital character,N2-46,10281,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:36 AM,05/Jan/23 2:58 PM,05/Jan/23 2:57 PM,,,0,EditAccount,,"If the password entered must not contain a capital letter, an error message will be displayed
+
+test data:”
+
+ccccc2334!!!!!
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,,,,,,N2-3,Edit account,,,"show an error ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,0|i001pr:,,,,,,,,,,Fail,Unit,"1)enter a password without a capital letter
+2)click button('xác nhận )",,,To Do
+AL30- Verify password field- The password entered must have a capital character,N2-45,10280,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:35 AM,05/Jan/23 2:57 PM,05/Jan/23 2:57 PM,,,0,AccountLogin,,"If the password entered must not contain a capital letter, an error message will be displayed
+
+test data:”
+
+ccccc2334!!!!!
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,,,,,,N2-2,Account login,,,"show an error ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,0|i001pj:,,,,,,,,,,Fail,Unit,"1)enter a password without a capital letter
+2)click button('xác nhận )",,,To Do
+RA29- Verify password field - The password entered must have a capital character,N2-44,10279,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:34 AM,05/Jan/23 2:57 PM,05/Jan/23 2:56 PM,,,0,RegisterAnAccount,,"If the password entered must not contain a capital letter, an error message will be displayed
+
+test data:”
+
+ccccc2334!!!!!
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,,,,,,N2-1,Register an account,,,"show an error ""mật khẩu phải có ít nhất một ký tự in Hoa""",,,,,0|i001pb:,,N2 Sprint 1,,,,,,,,Fail,Unit,"1)enter a password without a capital letter
+2)click button",,,To Do
+IPF09 - Register an account - Shop,N2-43,10278,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:28 AM,05/Jan/23 10:52 AM,22/Mar/23 4:28 PM,05/Jan/23 10:52 AM,,0,RegisterAnAccount,,"If you choose to buy any product on the homepage, the product will be moved to the shopping cart",,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001p3:,,N2 Sprint 1,,,,,,,,Pass,Integration,"the products can customize the number of products for the user
+If your cart is over 569,000vnd, you will get free shipping
+",,,Done
+IPF08 - Register an account - Discount code,N2-42,10277,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:27 AM,05/Jan/23 10:52 AM,22/Mar/23 4:28 PM,05/Jan/23 10:52 AM,,0,RegisterAnAccount,,"If you buy a product you will get accumulated points, the accumulated points will reduce the product price",,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i001ov:,,N2 Sprint 1,,,,,,,,Pass,Integration,"10,000 VND is equivalent to 1 point",,,Done
+IPF07 - Register an account - Change Password,N2-41,10276,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:25 AM,05/Jan/23 10:25 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,h2. Change the password including the character,,Công Vũ,62999f181648f2006963b487,,,,,,,,,"An error message was displayed:""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,,,,,,,,,,"Please do not re-enter the old password.
+New password contains characters, special characters, numbers, no spaces
+
+",,,,,0|i001on:,,N2 Sprint 1,,,,,,,,Pass,Integration,"1) enter change password
+2)click button('Confirm"")
+Expected Result
+",,,To Do
+IPF06 - Register an account - Address,N2-40,10275,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:23 AM,05/Jan/23 10:23 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,"h2. If you enter an address that does not contain any characters, an error message will be displayed
+
+h2. test data:”
+
+h2. address a number , character
+
+h2. Text Steps",,Công Vũ,62999f181648f2006963b487,,,,,,,,,no error message is displayed,,,,,,,,,,,,,,"show an error:""vui lòng nhập địa chỉ """,,,,,0|i001of:,,N2 Sprint 1,,,,,,,,Pass,Integration,,,,To Do
+AL28- Verify password field - Password length should not exceed 32 characters,N2-39,10274,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:22 AM,05/Jan/23 2:56 PM,05/Jan/23 2:56 PM,,,0,AccountLogin,,"if the password length is more than 32 characters, an error message is displayed
+
+test data:”
+
+123214646798a!dfsfsfsfsfsfsfffffffffffffffffffffffffffffffffffffffffffffffffsffffffffffffffffffffffffffflllllllllllllllllllllllllllllllllllllllllllll
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""Độ dài mật khẩu không quá 32 ký tự""",,,,,,,,,,N2-2,Account login,,,"show an error:""Độ dài mật khẩu không quá 32 ký tự""",,,,,0|i001o7:,,,,,,,,,,Fail,Unit,"1)enter password field more than 32 characters
+2)click button('Đăng ký')",,,To Do
+EA27 - Verify password field - enter the password field with at least one number,N2-38,10273,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:21 AM,05/Jan/23 2:56 PM,05/Jan/23 2:55 PM,,,0,EditAccount,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một số",,,,,,,,,,N2-3,Edit account,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một số""",,,,,0|i001nz:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one number
+2)click button('Đăng ký')",,,To Do
+IPF05 - Register an account - Confirm Email,N2-37,10272,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:21 AM,05/Jan/23 10:21 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,"h2. If you enter too many characters when confirming the email, the system will not work
+
+test data:'
+
+
+
+ewareawtweataewtewa@gmail.com",enter email with too many character,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,could not connect,,,,,0|i001nr:,,N2 Sprint 1,,,,,,,,Pass,Integration,,,,To Do
+AL26 - Verify password - Imported imports must contain at least one special character,N2-36,10271,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:20 AM,05/Jan/23 2:55 PM,05/Jan/23 2:55 PM,,,0,AccountLogin,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,,,,,,N2-2,Account login,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,0|i001nj:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one special character
+2)click button('xác nhận thay đổi'')",,,To Do
+IPF04 - Register an account - Password when registering,N2-35,10270,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:18 AM,05/Jan/23 10:18 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,h2. You have to enter information to register,,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001nb:,,N2 Sprint 1,,,,,,,,Pass,Integration,"1)	password no more than 15 characters
+2)	Password does not include special characters
+3)	password does not include spaces
+",,,To Do
+EA26 - Verify password field- Password must have at least one character,N2-34,10269,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:18 AM,05/Jan/23 2:55 PM,05/Jan/23 2:54 PM,,,0,EditAccount,,"If the password entered has no characters, an error message will be displayed
+
+test data:”
+
+123214646798
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,,,,,,N2-3,Edit account,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,0|i001n3:,,,,,,,,,,Fail,Unit,"1)enter the password field without any characters
+2)click button('xác nhận thay đổi')",,,To Do
+IPF03 - Register an account - First and last name when registering,N2-33,10268,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:16 AM,05/Jan/23 10:16 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,h2. You have to enter information to register,,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001mv:,,,,,,,,,,Pass,Integration,"1)	your name does not include numbers
+2)	Your name contains spaces
+3)	your name does not include special characters
+",,,To Do
+EA25 - Verify password field - must be at least 8 characters long,N2-32,10267,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:15 AM,05/Jan/23 2:54 PM,05/Jan/23 2:53 PM,,,0,EditAccount,,"If the length is less than 8 characters, an error message will be displayed
+
+test data:”1”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự",,,,,,,,,,N2-3,Edit account,,,"show an error:""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự""",,,,,0|i001mn:,,,,,,,,,,Fail,Unit,"1)enter a password field with a length of less than 8 characters
+2)click button('Đăng ký')",,,To Do
+IPF02 - Register an account - Email when registering,N2-31,10266,Story,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:14 AM,05/Jan/23 10:14 AM,22/Mar/23 4:28 PM,,,0,RegisterAnAccount,,h2. You have to enter information to register,,Công Vũ,62999f181648f2006963b487,,,,,,,,,This email already exists in the system,,,,,,,,,,,,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001mf:,,N2 Sprint 1,,,,,,,,Pass,Integration,"1)	Email up to 30 characters
+2)	email address including characters and special characters
+",,,To Do
+EA25 - Verify email field - Enter invalid email address,N2-30,10265,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:12 AM,05/Jan/23 2:53 PM,05/Jan/23 2:53 PM,05/Jan/23 10:13 AM,,0,EditAccount,,"Enter invalid email address error message,
+
+test data:
+
+“
+
+thientrile@t
+
+“",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Vui lòng nhập đúng định dạng email""",,,,,,,,,,N2-3,Edit account,,,"show error message:""Vui lòng nhập đúng định dạng email""",,,,,0|i001m7:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)Enter the missing email address
+2)click button('đăng ký')",,,Done
+EA24 - Verify email field - Enter email without @ character,N2-29,10264,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 10:07 AM,05/Jan/23 2:53 PM,05/Jan/23 2:52 PM,05/Jan/23 10:13 AM,,0,EditAccount,,"If you enter an email without the @ character, you will see an error message
+
+test data:'
+
+thientrile
+
+'",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:Vui lòng ""@"" trong địa chỉ email, ""thientrile"" thiếu một ""@""'",,,,,,,,,,N2-3,Edit account,,,"show an error:'Vui lòng ""@"" trong địa chỉ email, ""thientrile"" thiếu một ""@""'",,,,,0|i001lz:,,,,,,,,,,Pass,Unit,"1)Enter email without @ character
+2)Click button('gửi mã xác nhận')",,,Done
+IPF01 - Register an account - Phone number when registering,N2-28,10263,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,Công Vũ,62999f181648f2006963b487,05/Jan/23 10:06 AM,05/Jan/23 10:14 AM,05/Jan/23 10:09 AM,,,0,RegisterAnAccount,,h2. You have to enter information to register,,Công Vũ,62999f181648f2006963b487,,,,,,,,,,,,,,,,,,,,,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001lr:,,N2 Sprint 1,,,,,,,,Pass,Integration,"1)	you need to enter phone number
+2)	phone number consists of 10 characters
+",,,To Do
+EA23 -  Password field-Password length should not exceed 32 characters,N2-27,10262,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:49 AM,05/Jan/23 2:52 PM,05/Jan/23 2:51 PM,,,0,EditAccount,,"if the password length is more than 32 characters, an error message is displayed
+
+test data:”
+
+123214646798a!dfsfsfsfsfsfsfffffffffffffffffffffffffffffffffffffffffffffffffsffffffffffffffffffffffffffflllllllllllllllllllllllllllllllllllllllllllll
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""Độ dài mật khẩu không quá 32 ký tự""",,,,,,,,,,N2-3,Edit account,,,"show an error:""Độ dài mật khẩu không quá 32 ký tự""",,,,,0|i001lj:,,,,,,,,,,Fail,Unit,"1)enter password field more than 32 characters
+2)click button('Đăng ký')",,,To Do
+AL22 - Verify password - enter the password field with at least one number,N2-26,10261,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:47 AM,05/Jan/23 2:51 PM,05/Jan/23 2:51 PM,,,0,AccountLogin,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một số",,,,,,,,,,N2-2,Account login,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một số""",,,,,0|i001lb:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one number
+2)click button('xác nhận thay đổi'')",,,To Do
+AL21 - Verify password - Imported imports must contain at least one special character,N2-25,10260,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:46 AM,05/Jan/23 2:51 PM,05/Jan/23 2:48 PM,,,0,AccountLogin,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,,,,,,N2-2,Account login,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,0|i001l3:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one special character
+2)click button('Đăng ký')",,,To Do
+AL20 - Verify password- Password must have at least one character,N2-24,10259,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:44 AM,05/Jan/23 2:48 PM,05/Jan/23 2:48 PM,,,0,AccountLogin,,"If the password entered has no characters, an error message will be displayed
+
+test data:”
+
+123214646798
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,,,,,,N2-2,Account login,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,0|i001kv:,,,,,,,,,,Fail,Unit,"1)enter the password field without any characters
+2)click button('Đăng ký')",,,To Do
+AL19 - Verify password-must be at least 8 characters long,N2-23,10258,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:42 AM,05/Jan/23 2:47 PM,05/Jan/23 2:47 PM,,,0,AccountLogin,,"If the length is less than 8 characters, an error message will be displayed
+
+test data:”1”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự",,,,,,,,,,N2-2,Account login,,,"show an error:""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự""",,,,,0|i001kn:,,,,,,,,,,Fail,Unit,"1)enter a password field with a length of less than 8 characters
+2)click button('Xác nhận thay đổi')",,,To Do
+AL18 - Verify phone number-The phone number entered is only 10 characters long,N2-22,10257,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:40 AM,05/Jan/23 2:47 PM,05/Jan/23 2:47 PM,05/Jan/23 9:41 AM,,0,AccountLogin,,"If the phone number entered is more than 10 characters long, it will report an error
+
+test data:”
+
+0919618654135
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-2,Account login,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001kf:,,,,,,,,,,Pass,Unit,"1)enter the phone number field with a length of more than 10 characters
+2)click button('Đăng ký')",,,Done
+AL17 - Verify phone number-Check phone number format-enter with a leading space,N2-21,10256,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:39 AM,05/Jan/23 2:43 PM,05/Jan/23 2:43 PM,05/Jan/23 9:39 AM,,0,AccountLogin,,"Entering special characters in the phone number field will display an error message
+
+test data:”
+
+    0919618654
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-2,Account login,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001k7:,,,,,,,,,,Pass,Unit,"1)Enter with a leading spacein the phone number field
+2)click button('Đăng ký')",,,Done
+AL16- Verify phone number field-input special characters,N2-20,10255,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:37 AM,05/Jan/23 2:12 PM,05/Jan/23 1:55 PM,05/Jan/23 9:38 AM,,0,AccountLogin,,"Entering special characters in the phone number field will display an error message
+
+test data:”
+
+\!@#@\!$@$
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-2,Account login,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001jz:,,,,,,,,,,Pass,Unit,"1)Enter special characters in the phone number field
+2)click button('Đăng ký')",,,Done
+AL15- Verify phone number field-input characters,N2-19,10254,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:35 AM,05/Jan/23 2:12 PM,05/Jan/23 1:53 PM,05/Jan/23 9:37 AM,,0,AccountLogin,,"Entering characters in the phone number field shows an error message
+
+test data:”
+
+dfsfsfsfsf
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,An error message was displayed:'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,,,,,,N2-2,Account login,,,"show error message:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,0|i001jr:,,,,,,,,,,Pass,Unit,"1)enter characters in the phone number field,
+2)click button ('đăng ký')",,,Done
+RA14-Verification code-Invalid verification code,N2-18,10253,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:31 AM,05/Jan/23 2:11 PM,05/Jan/23 1:51 PM,05/Jan/23 9:33 AM,,0,RegisterAnAccount,,"Iif you enter an invalid verification code,an error message will be displayed
+
+test data:”
+
+13132323132313132131321
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""mã xác nhận không hợp lệ""",,,,,,,,,,N2-1,Register an account,,,"show an error""mã xác nhận không hợp lệ""",,,,,0|i001jj:,,,,,,,,,,Pass,Unit,"1)enter the confirmation code field invalid confirmation code
+2)click button('Xác nhận"")",,,Done
+RA13-Verification code-enter the special characters,N2-17,10252,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:27 AM,05/Jan/23 2:11 PM,05/Jan/23 1:49 PM,05/Jan/23 9:29 AM,,0,RegisterAnAccount,,"If you enter a character in the verification code field, an error message will be displayed
+
+test data:”
+
+dfsfs
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,,,,,,N2-1,Register an account,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001jb:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)enter the confirmation code field in the special characters
+2)click button('Xác nhận"")",,,Done
+RA12-Verification code-enter the character,N2-16,10251,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:26 AM,05/Jan/23 2:09 PM,05/Jan/23 1:49 PM,05/Jan/23 9:26 AM,,0,RegisterAnAccount,,"If you enter a character in the verification code field, an error message will be displayed
+
+test data:”
+
+dfsfs
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,,,,,,N2-1,Register an account,,,"show an error""Vui lòng nhập đúng với định dạng được yêu cầu""",,,,,0|i001j3:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)enter the confirmation code field in the character
+2)click button('Xác nhận"")",,,Done
+RA11-Verify Password field-Password length should not exceed 32 characters,N2-15,10250,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:16 AM,05/Jan/23 2:10 PM,05/Jan/23 1:48 PM,,,0,RegisterAnAccount,,"if the password length is more than 32 characters, an error message is displayed
+
+test data:”
+
+123214646798a!dfsfsfsfsfsfsfffffffffffffffffffffffffffffffffffffffffffffffffsffffffffffffffffffffffffffflllllllllllllllllllllllllllllllllllllllllllll
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""Độ dài mật khẩu không quá 32 ký tự""",,,,,,,,,,N2-1,Register an account,,,"show an error:""Độ dài mật khẩu không quá 32 ký tự""",,,,,0|i001iv:,,,,,,,,,,Fail,Unit,"1)enter password field more than 32 characters
+2)click button('Đăng ký')",,,To Do
+RA10-Verify password field-enter the password field with at least one number,N2-14,10249,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:13 AM,05/Jan/23 2:08 PM,05/Jan/23 1:56 PM,,,0,RegisterAnAccount,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một số",,,,,,,,,,N2-1,Register an account,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một số""",,,,,0|i001in:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one number
+2)click button('Đăng ký')",,,To Do
+RA09-Verify Password field-Imported imports must contain at least one special character,N2-13,10248,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:07 AM,05/Jan/23 2:10 PM,05/Jan/23 1:48 PM,,,0,RegisterAnAccount,,"If the password entered does not contain any special characters, an error message will be displayed
+
+test data:”
+
+123214646798a
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,,,,,,N2-1,Register an account,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự đặc biệt""",,,,,0|i001if:,,,,,,,,,,Fail,Unit,"1)enter the password field with at least one special character
+2)click button('Đăng ký')",,,To Do
+RA08-Verify password field-Password must have at least one character,N2-12,10247,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:03 AM,05/Jan/23 2:10 PM,05/Jan/23 1:48 PM,,,0,RegisterAnAccount,,"If the password entered has no characters, an error message will be displayed
+
+test data:”
+
+123214646798
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,,,,,,N2-1,Register an account,,,"show an error:""vui lòng nhập mật khẩu có ít nhất một ký tự""",,,,,0|i001i7:,,,,,,,,,,Fail,Unit,"1)enter the password field without any characters
+2)click button('Đăng ký')",,,To Do
+RA07-Verify password field-must be at least 8 characters long,N2-11,10246,Bug,Open,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 9:02 AM,05/Jan/23 2:10 PM,05/Jan/23 1:47 PM,,,0,RegisterAnAccount,,"If the length is less than 8 characters, an error message will be displayed
+
+test data:”1”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"no error message is displayed:""""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự",,,,,,,,,,N2-1,Register an account,,,"show an error:""vui lòng nhập mật khẩu với độ dài ít nhất 8 ký tự""",,,,,0|i001hz:,,N2 Sprint 1,,,,,,,,Fail,Unit,"1)enter a password field with a length of less than 8 characters
+2)click button('Đăng ký')",,,To Do
+RA06-Verify email field-Enter invalid email address,N2-10,10245,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:57 AM,05/Jan/23 2:05 PM,05/Jan/23 1:43 PM,05/Jan/23 8:57 AM,,0,RegisterAnAccount,,"Enter invalid email address error message,
+
+test data:
+
+“
+
+thientrile@t
+
+“",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Vui lòng nhập đúng định dạng email""",,,,,,,,,,N2-1,Register an account,,,"show error message:""Vui lòng nhập đúng định dạng email""",,,,,0|i001hr:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)Enter the missing email address
+2)click button('đăng ký')",,,Done
+RA05-Verify email field-Enter email without @ character,N2-9,10244,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:50 AM,05/Jan/23 2:04 PM,05/Jan/23 1:47 PM,05/Jan/23 8:50 AM,,0,RegisterAnAccount,,"If you enter an email without the @ character, you will see an error message
+
+test data:'
+
+thientrile
+
+'",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:Vui lòng ""@"" trong địa chỉ email, ""thientrile"" thiếu một ""@""'",,,,,,,,,,N2-1,Register an account,,,"show an error:'Vui lòng ""@"" trong địa chỉ email, ""thientrile"" thiếu một ""@""'",,,,,0|i001hj:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)Enter email without @ character
+2)Click button('Đăng ký')",,,Done
+RA04- Verify phone number-The phone number entered is only 10 characters long,N2-8,10243,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:39 AM,05/Jan/23 2:04 PM,05/Jan/23 1:47 PM,05/Jan/23 8:42 AM,,0,RegisterAnAccount,,"If the phone number entered is more than 10 characters long, it will report an error
+
+test data:”
+
+0919618654135
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-1,Register an account,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001hb:,,,,,,,,,,Pass,Unit,"1)enter the phone number field with a length of more than 10 characters
+2)click button('Đăng ký')",,,Done
+RA03- Verify phone number-enter with a leading space,N2-7,10242,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:36 AM,05/Jan/23 2:07 PM,05/Jan/23 1:46 PM,05/Jan/23 8:38 AM,,0,RegisterAnAccount,,"Entering special characters in the phone number field will display an error message
+
+test data:”
+
+    0919618654
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-1,Register an account,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001h3:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)Enter with a leading spacein the phone number field
+2)click button('Đăng ký')",,,Done
+RA02- Verify phone number-input special characters,N2-6,10241,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:21 AM,05/Jan/23 2:07 PM,05/Jan/23 1:45 PM,05/Jan/23 8:36 AM,,0,RegisterAnAccount,,"Entering special characters in the phone number field will display an error message
+
+test data:”
+
+\!@#@\!$@$
+
+”",,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,"An error message was displayed:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,,,,,,N2-1,Register an account,,,show error message: 'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,0|i001gv:,,N2 Sprint 1,,,,,,,,Pass,Unit,"1)Enter special characters in the phone number field
+2)click button('Đăng ký')",,,Done
+RA01- Verify phone number-input characters,N2-5,10240,Story,Done,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,Done,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,Công Vũ,62999f181648f2006963b487,05/Jan/23 8:17 AM,05/Jan/23 2:07 PM,22/Mar/23 1:06 PM,05/Jan/23 8:32 AM,,0,RegisterAnAccount,,"Entering characters in the phone number field shows an error message
+
+test data:”
+
+dfsfsfsfsf
+
+”",,Công Vũ,62999f181648f2006963b487,,,,,,,,,An error message was displayed:'Nhập đúng số di động của bạn. ví dụ: 0987654321',,,,,,,,,,N2-1,Register an account,,,"show error message:""Nhập đúng số di động của bạn. ví dụ: 0987654321""",,,,,0|i001gn:,,BN Sprint 1,,,,,,,,Pass,Unit,"1)enter characters in the phone number field,
+2)click button ('đăng ký')",,,Done
+Payment,N2-4,10239,Epic,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:17 AM,05/Jan/23 3:08 PM,05/Jan/23 3:08 PM,,,0,,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,,,,,,,,,,ghx-label-7,,,Payment,To Do,,,purple,,,0|i001gf:,,,,,,,,,,,,,,,To Do
+Edit account,N2-3,10238,Epic,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:16 AM,05/Jan/23 3:08 PM,05/Jan/23 3:08 PM,,,0,,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,,,,,,,,,,ghx-label-7,,,Edit account,To Do,,,purple,,,0|i001g7:,,,,,,,,,,,,,,,To Do
+Account login,N2-2,10237,Epic,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:05 AM,05/Jan/23 3:08 PM,05/Jan/23 3:08 PM,,,0,,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,,,,,,,,,,ghx-label-7,,,Account login,To Do,,,purple,,,0|i001fz:,,,,,,,,,,,,,,,To Do
+Register an account,N2-1,10236,Epic,To Do,N2,N2_CD21CT2,software,Thiện Phạm,62995eea1648f20069638f9a,,Medium,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,05/Jan/23 8:05 AM,05/Jan/23 3:09 PM,05/Jan/23 3:09 PM,,,0,,,,,LÊ THIÊN TRÍ,62995c319c88e7006fb6e9dd,,,,,,,,,,,,,,,,,,ghx-label-7,,,Register an account,To Do,,,purple,,,0|i001fr:,,,,,,,,,,,,,,,To Do
